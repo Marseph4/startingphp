@@ -15,7 +15,6 @@
                 <li><a href='calculadora.php' target='contenido'>Calculadora</a></li><br>
                 <li><a href='tratamiento_string.php' target='contenido'>Tratamiento de Strings</a></li><br>
                 <li><a href='subir.php' target="contenido">Subir Fotos</a></li><br>
-                <li><a href='galeria.php' target="contenido">Galería</a></li><br>
             </ul>
                <center><form action="" method="post">
                     <input type="submit" value="logout" name = "submit" class="btn float-right login_btn">
