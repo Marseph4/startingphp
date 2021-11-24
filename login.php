@@ -48,7 +48,7 @@ if ( ! empty( $_POST ) ) {
 		$pass = $_POST['pass'];
 		
 
-		$conn = new mysqli("127.0.0.1", "root", "", "ana");
+		$conn = new mysqli("127.0.0.1", "root", "", "mars");
  
 		$stmt = $conn->prepare("SELECT * FROM users WHERE user= ?"); 
 		$stmt->bind_param('s', $user);
