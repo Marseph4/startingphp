@@ -55,7 +55,7 @@
         $servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "ana";
+		$dbname = "mars";
 
 		$conn = new mysqli($servername, $username, $password, $dbname);
 
